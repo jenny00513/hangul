@@ -12,6 +12,13 @@ cin, cout과 동일한 문법이 적용됩니다.
 출력(x); → cout << x;
 ```
 
+## 입출력 세팅
+
+```
+#define 빠른입출력 ios_base::sync_with_stdio(거짓); cin.tie(아무것도아님); cout.tie(아무것도아님)
+#define 입출력세팅 빠른입출력; cout << fixed; cout.precision(7)
+```
+
 ## 기본 구문
 
 ```
@@ -51,9 +58,9 @@ cin, cout과 동일한 문법이 적용됩니다.
 동적배열 → vector
 집합 → set
 다중집합 → multiset
+해싱집합 → unordered_set
 사전 → map
 다중사전 → multimap
-해싱집합 → unordered_set
 해싱사전 → unordered_map
 우선순위큐 → priority_queue
 더미 → stack
@@ -84,4 +91,24 @@ cin, cout과 동일한 문법이 적용됩니다.
 하계 → lower_bound
 상계 → upper_bound
 더크다 → greater
+```
+
+## 상수
+
+```
+참 → true
+거짓 → false
+아무것도아님 → NULL
+공백 → " "
+개행 → "\n"
+```
+
+## 기타
+
+```
+구구팔 → 998244353
+십억 → 1e9
+십억칠 → 1e9+7
+십억구 → 1e9+9
+십팔억 → 1e18
 ```
