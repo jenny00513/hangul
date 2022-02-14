@@ -16,7 +16,7 @@ cin, cout과 동일한 문법이 적용됩니다.
 
 ```
 #define 빠른입출력 ios_base::sync_with_stdio(거짓); cin.tie(아무것도아님); cout.tie(아무것도아님)
-#define 입출력세팅 빠른입출력; cout << fixed; cout.precision(7)
+#define 입출력세팅 빠른입출력; cout << fixed; cout.precision(20)
 ```
 
 ## 기본 구문
