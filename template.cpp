@@ -20,12 +20,6 @@
 #define 택 ^
 /* To do: and, or, <<, >> */
 
-// 템플릿
-#define 변수값까지순회(i, n) for(int i = 1; i <= n; i++)
-#define 전부(x) (x).begin(), (x).end()
-#define 압축(x) 정렬(전부((x))); (x).erase(unique(all((x))), (x).end())
-#define 크기(x) (int)((x).size())
-
 // 자료형
 #define 상수로 const
 #define 정수 int
