@@ -15,8 +15,8 @@ cin, cout과 동일한 문법이 적용됩니다.
 ## 입출력 세팅
 
 ```
-#define 빠른입출력 ios_base::sync_with_stdio(거짓); cin.tie(아무것도아님); cout.tie(아무것도아님)
-#define 입출력세팅 빠른입출력; cout << fixed; cout.precision(20)
+빠른입출력; → ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+입출력세팅; → 빠른입출력; cout << fixed; cout.precision(20);
 ```
 
 ## 기본 구문
@@ -28,9 +28,11 @@ cin, cout과 동일한 문법이 적용됩니다.
 
 반복 → for
 조건을만족하는동안 → while
-
 중단; → break;
 하위중단; → continue;
+
+그리고 → and 혹은 &&
+또는 → or 혹은 ||
 ```
 
 ## 자료형
@@ -47,6 +49,8 @@ cin, cout과 동일한 문법이 적용됩니다.
 긴정수쌍 → pair<ll, ll>
 몰루 → auto
 없음 → void
+
+상수로 → const
 
 첫번째값 → (pair).first
 두번째값 → (pair).second
@@ -90,6 +94,7 @@ cin, cout과 동일한 문법이 적용됩니다.
 정렬 → sort
 하계 → lower_bound
 상계 → upper_bound
+
 더크다 → greater
 ```
 
@@ -107,7 +112,7 @@ cin, cout과 동일한 문법이 적용됩니다.
 
 ```
 반환 → return
-종료 → return 0
+종료; → return 0;
 프로세스 → main
 
 구구팔 → 998244353
