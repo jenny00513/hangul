@@ -4,6 +4,10 @@
     Source: github.com/jenny00513/hangul
 */
 
+// 헤더 및 네임스페이스
+#include <bits/stdc++.h>
+using namespace std;
+
 // 입출력
 #define 입력(x) cin >> x
 #define 출력(x) cout << x
