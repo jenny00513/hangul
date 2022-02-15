@@ -45,8 +45,7 @@ cin, cout과 동일한 문법이 적용됩니다.
 긴실수 → long double
 문자열 → string
 긴정수 → long long
-정수쌍 → pair<int, int>
-긴정수쌍 → pair<ll, ll>
+쌍 → pair
 몰루 → auto
 없음 → void
 
