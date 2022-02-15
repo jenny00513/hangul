@@ -35,6 +35,16 @@ cin, cout과 동일한 문법이 적용됩니다.
 또는 → or 혹은 ||
 ```
 
+## 비트 연산
+```
+아니다 → ! (not)
+택 → ^ (xor)
+교집합 → & (and)
+합집합 → | (or)
+왼쪽밀기 → << (left shift)
+오른쪽밀기 → >> (right shift)
+```
+
 ## 자료형
 
 ```
@@ -45,9 +55,9 @@ cin, cout과 동일한 문법이 적용됩니다.
 긴실수 → long double
 문자열 → string
 긴정수 → long long
-쌍 → pair
 몰루 → auto
 없음 → void
+쌍 → pair
 
 상수로 → const
 
