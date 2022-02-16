@@ -99,6 +99,12 @@ cin, cout과 동일한 문법이 적용됩니다.
 앞에제거 → pop_front
 뒤에제거 → pop_back
 
+비어있음 → empty
+크기 → size
+맨위 → top
+맨앞 → front
+맨뒤 → back
+
 삽입 → insert
 삭제 → erase
 찾기 → find
