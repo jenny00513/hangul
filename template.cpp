@@ -1,7 +1,7 @@
 /*
     Template made for Korean programming!
     한글로 코딩하고 싶었던 당신을 위해!
-    Source: github.com/jenny00513/hangul
+    Version: Beta ㅣ Source: github.com/jenny00513/hangul
 */
 
 // 헤더 및 네임스페이스
