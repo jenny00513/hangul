@@ -1,4 +1,4 @@
-# Hangul
+# Hangul(Beta)
 ```
 정수 프로세스(없음) // int main(void)
 {
