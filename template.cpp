@@ -69,6 +69,12 @@ using namespace std;
 #define 앞에제거 pop_front
 #define 뒤에제거 pop_back
 
+#define 비어있음 empty
+#define 크기 size
+#define 맨위 top
+#define 맨앞 front
+#define 맨뒤 back
+
 #define 삽입 insert
 #define 삭제 erase
 #define 찾기 find
