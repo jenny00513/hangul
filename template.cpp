@@ -57,7 +57,7 @@ using namespace std;
 #define 사전 map
 #define 다중사전 multimap
 #define 해싱사전 unordered_map
-#define 우선순위큐 priority_queue
+#define 우선순 priority_queue
 #define 더미 stack
 #define 대기열 queue
 #define 양방향대기열 deque
